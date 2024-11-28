@@ -145,5 +145,5 @@ while True:
 
 # カメラリソースを解放してウィンドウを閉じる
 cap.release()
-cv2.destroyAllWindows()
+#cv2.destroyAllWindows()
 
