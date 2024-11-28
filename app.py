@@ -77,7 +77,7 @@ def on_mouse(event, x, y, flags, param):
 #cap = cv2.VideoCapture(2)
 cap = cv2.VideoCapture(1)
 #cap = cv2.VideoCapture(0)
-#cv2.namedWindow("Camera")
+cv2.namedWindow("Camera")
 cv2.setMouseCallback("Camera", on_mouse)
 
 while True:
@@ -145,5 +145,5 @@ while True:
 
 # カメラリソースを解放してウィンドウを閉じる
 cap.release()
-#cv2.destroyAllWindows()
+cv2.destroyAllWindows()
 
