@@ -75,10 +75,10 @@ def on_mouse(event, x, y, flags, param):
 # カメラを起動
 #cap = cv2.VideoCapture(12)
 #cap = cv2.VideoCapture(2)
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(5)
 #cap = cv2.VideoCapture(0)
 #cv2.namedWindow("Camera")
-st.image("Camera", caption=None, width=None)
+
 cv2.setMouseCallback("Camera", on_mouse)
 
 while True:
