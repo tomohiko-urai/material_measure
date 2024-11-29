@@ -75,7 +75,7 @@ def on_mouse(event, x, y, flags, param):
 # カメラを起動
 #cap = cv2.VideoCapture(12)
 #cap = cv2.VideoCapture(2)
-cap = cv2.VideoCapture(5)
+cap = cv2.VideoCapture(6)
 #cap = cv2.VideoCapture(0)
 #cv2.namedWindow("Camera")
 
